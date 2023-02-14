@@ -25,5 +25,6 @@ SMOTE: balanced accuracy = 0.6640, precision = 0.99, recall = 0.69
 Naive Random Oversampling: balanced accuracy = 0.6560, precision = 0.99, recall = 0.62
 ![Naive Random Oversampling](https://github.com/veachk90/Credit_Risk_Analysis/blob/main/Screenshot%20(274).png)
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+#### Summary
+If one of the provided models had to be used to make a decision, the Easy Ensemble Classifier would be the best choice for the given data. None of the other models come close in terms of accuracy, and it demonstrates high average precision and recall. However, it should be noted that the precision when making predictions on high-risk applications is .05, which is terribly low. That is, in order to accurately predict the high-risk applications, it will also classify a relatively high number of low-risk applications as being at high risk of default. This could be costly in terms of requiring additional reviews for declined loan applications.
+
